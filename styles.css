@@ -1,3 +1,10 @@
-header {
-    font-family: Domine;
+
+h1 {
+    Font-Family: 'Cormorant Garamond', Serif;
+    Font-Size: 55px;
+}
+
+p {
+    Font-Family: 'Fira Sans', Sans-Serif;
+    Font-Size: 15px;
 }
