@@ -1,10 +1,23 @@
 
+body {
+    background-image: url("Media/milky-way-1023340_1280.jpg");
+}
+
 h1 {
     Font-Family: 'Cormorant Garamond', Serif;
-    Font-Size: 55px;
+    Font-Size: 86px;
+    color:blanchedalmond;
+    margin: 0;
 }
 
 p {
     Font-Family: 'Fira Sans', Sans-Serif;
     Font-Size: 15px;
+    color: blanchedalmond;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+footer {
+    color:cornsilk;
 }
