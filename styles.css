@@ -3,19 +3,45 @@ body {
     background-image: url("Media/milky-way-1023340_1280.jpg");
 }
 
-h1 {
-    Font-Family: 'Cormorant Garamond', Serif;
-    Font-Size: 86px;
-    color:blanchedalmond;
-    margin: 0;
+@font-face {
+    font-family: headingFont;
+    src: url(Media/CormorantGaramond-BoldItalic.ttf);
 }
 
-p {
-    Font-Family: 'Fira Sans', Sans-Serif;
+@font-face {
+    font-family: textFont;
+    src: url(Media/FiraSans-Regular.ttf);
+}
+
+h1 {
+    Font-Family: headingFont;
+    Font-Size: 86px;
+    color:blanchedalmond;
+    margin: 1%;
+}
+
+h2 {
+    Font-Family: headingFont;
+    Font-Size: 60px;
+    color:blanchedalmond;
+    margin-bottom: 0%;
+}
+
+#kokoSitaatti {
+    margin-top: 5%;
+}
+
+#sitaatti {
+    Font-Family: textFont;
     Font-Size: 15px;
     color: blanchedalmond;
-    margin-top: 5%;
     margin-bottom: 10%;
+}
+
+#Bass
+ {
+    margin: 0%;
+    padding: 0%;
 }
 
 footer {
