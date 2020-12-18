@@ -1,11 +1,12 @@
+
 html { 
-    background: url("Media/milky-way-1023340_1280.jpg") no-repeat center center fixed; 
+    background: url("Media/contact.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
-
+  
 @font-face {
     font-family: headingFont;
     src: url(jennyvaittinen.github.io/Media/CormorantGaramond-BoldItalic.ttf);
@@ -18,23 +19,9 @@ html {
 
 h1 {
     Font-Family: headingFont;
-    Font-Size: 86px;
-    color:blanchedalmond;
-    margin: 1%;
-}
-
-h2 {
-    Font-Family: headingFont;
     Font-Size: 60px;
-    color:blanchedalmond;
-}
-
-#sitaatti {
-    margin-top: 5%;
-    Font-Family: textFont;
-    Font-Size: 15px;
-    color: blanchedalmond;
-    margin-bottom: 10%;
+    color:darkslateblue;
+    margin: 1%;
 }
 
 .header {
@@ -58,7 +45,7 @@ h2 {
 }
 a {
     font-family: textFont;
-    color:cornsilk;
+    color:darkblue;
 }
 
 ul {
