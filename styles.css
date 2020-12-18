@@ -5,12 +5,12 @@ body {
 
 @font-face {
     font-family: headingFont;
-    src: url(Media/CormorantGaramond-BoldItalic.ttf);
+    src: url(jennyvaittinen.github.io/Media/CormorantGaramond-BoldItalic.ttf);
 }
 
 @font-face {
     font-family: textFont;
-    src: url(Media/FiraSans-Regular.ttf);
+    src: url(jennyvaittinen.github.io/Media/FiraSans-Regular.ttf);
 }
 
 h1 {
