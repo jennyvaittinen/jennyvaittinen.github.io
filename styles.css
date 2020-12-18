@@ -44,6 +44,11 @@ h2 {
     padding: 0%;
 }
 
+#about {
+    position:relative;
+    font-family: textFont;
+}
+
 footer {
     color:cornsilk;
 }
