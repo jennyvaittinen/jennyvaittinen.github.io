@@ -26,11 +26,8 @@ h2 {
     color:blanchedalmond;
 }
 
-#kokoSitaatti {
-    margin-top: 10%;
-}
-
 #sitaatti {
+    margin-top: 5%;
     Font-Family: textFont;
     Font-Size: 15px;
     color: blanchedalmond;
@@ -70,4 +67,7 @@ ul {
 
 li {
     display: inline;
+  }
+  a:visited {
+      color:darkmagenta;
   }
