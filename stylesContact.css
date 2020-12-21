@@ -50,22 +50,32 @@ a {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-left:0;
+    padding-left: 0;
     color:darkblue;
+
 }
 
 li {
-    display: inline;
+    display:inline;
+    border: 2px solid black;
   }
+
   a:visited {
       color:darkmagenta;
   }
-  .LI-profile-badge {
-      margin-top:10%;
+
+  #email {
+      color:black;
+      font-weight: bolder;
+      position:absolute;
+      margin-top:35%;
+      margin-left: 40%;
   }
 
-  p {
-      color:darkslateblue;
-      font-weight: bolder;
+  .LI-profile-badge {
+      border: 2px solid black;
+      position: absolute;
+      margin-top:10%;
+      margin-left:40%;
   }
