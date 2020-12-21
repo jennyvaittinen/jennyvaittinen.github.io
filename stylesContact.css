@@ -1,4 +1,3 @@
-
 html { 
     background: url("Media/contact.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -19,9 +18,11 @@ html {
 
 h1 {
     Font-Family: headingFont;
-    Font-Size: 60px;
+    Font-Size: 6vw;
     color:darkslateblue;
-    margin: 1%;
+    margin: 0;
+    padding:0;
+    width:4600px;
 }
 
 .header {
@@ -40,35 +41,43 @@ h1 {
     
     text-align: right;
     padding-top: 50px;
-    font-size: 120%;
+    font-size: 1.5vw;
     right: 0;
-}
-a {
     font-family: textFont;
     color:darkblue;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-left:0;
+    padding-left: 0;
+    margin-top:auto;
     color:darkblue;
+    width: 200px;
 }
 
 li {
-    display: inline;
+    display:inline;
   }
+
   a:visited {
       color:darkmagenta;
   }
 
   #email {
-      color:darkslateblue;
+      color:black;
       font-weight: bolder;
-      left: 35%;
+      position:absolute;
+      margin:0;
+      width:300px;
+      right:15cm;
+      top: 30ex;
+}
 
-
-  p {
-      color:darkslateblue;
-      font-weight: bolder;
+  #linkedin {
+      position:absolute;
+      margin:0;
+      right: 16cm;
+      top:8cm;
   }
+  
