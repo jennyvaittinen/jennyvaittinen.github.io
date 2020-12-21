@@ -1,6 +1,5 @@
-
 html { 
-    background: url("Media/contact.jpg") no-repeat center center fixed; 
+    background: url("Media/taustaAbout.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -20,7 +19,7 @@ html {
 h1 {
     Font-Family: headingFont;
     Font-Size: 60px;
-    color:darkslateblue;
+    color:rgba(255, 217, 0, 0.87);
     margin: 1%;
 }
 
@@ -45,30 +44,31 @@ h1 {
 }
 a {
     font-family: textFont;
-    color:darkblue;
+    color:cornsilk;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    color:darkblue;
+    color:cornsilk;
 }
 
 li {
     display: inline;
   }
   a:visited {
-      color:darkmagenta;
+      color:burlywood;
   }
-
-  #email {
-      color:darkslateblue;
-      font-weight: bolder;
-      left: 35%;
-
-
-  p {
-      color:darkslateblue;
-      font-weight: bolder;
+  #about {
+      font-family: textFont;
+      color:honeydew;
+      background-color: black;
+      border: 2px solid black;
+      position: relative;
+      width:fit-content;
+      padding: 4px;
+      text-align:center;
+      margin: auto;
+      margin-top:15%;
   }

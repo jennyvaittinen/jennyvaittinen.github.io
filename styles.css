@@ -1,23 +1,76 @@
+html { 
+    background: url("Media/milky-way-1023340_1280.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
-body {
-    background-image: url("Media/milky-way-1023340_1280.jpg");
+@font-face {
+    font-family: headingFont;
+    src: url(jennyvaittinen.github.io/Media/CormorantGaramond-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: textFont;
+    src: url(jennyvaittinen.github.io/Media/FiraSans-Regular.ttf);
 }
 
 h1 {
-    Font-Family: 'Cormorant Garamond', Serif;
+    Font-Family: headingFont;
     Font-Size: 86px;
     color:blanchedalmond;
-    margin: 0;
+    margin: 1%;
 }
 
-p {
-    Font-Family: 'Fira Sans', Sans-Serif;
+h2 {
+    Font-Family: headingFont;
+    Font-Size: 60px;
+    color:blanchedalmond;
+}
+
+#sitaatti {
+    margin-top: 5%;
+    Font-Family: textFont;
     Font-Size: 15px;
     color: blanchedalmond;
-    margin-top: 5%;
     margin-bottom: 10%;
 }
 
-footer {
+.header {
+    position: relative;
+    display: flex;
+    justify-content: stretch;
+    top: 0;
+}
+#header {
+    width: 85%;
+    left: 0;
+    margin: 0;
+}
+
+.navi {
+    
+    text-align: right;
+    padding-top: 50px;
+    font-size: 120%;
+    right: 0;
+}
+a {
+    font-family: textFont;
     color:cornsilk;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color:cornsilk;
+}
+
+li {
+    display: inline;
+  }
+  a:visited {
+      color:darkmagenta;
+  }
