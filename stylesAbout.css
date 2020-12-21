@@ -19,7 +19,7 @@ html {
 h1 {
     Font-Family: headingFont;
     Font-Size: 60px;
-    color:blanchedalmond;
+    color:rgba(255, 217, 0, 0.87);
     margin: 1%;
 }
 
@@ -58,5 +58,17 @@ li {
     display: inline;
   }
   a:visited {
-      color:darkmagenta;
+      color:burlywood;
+  }
+  #about {
+      font-family: textFont;
+      color:honeydew;
+      background-color: black;
+      border: 2px solid black;
+      position: relative;
+      width:fit-content;
+      padding: 4px;
+      text-align:center;
+      margin: auto;
+      margin-top:15%;
   }

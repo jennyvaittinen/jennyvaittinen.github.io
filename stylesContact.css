@@ -52,7 +52,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    color:cornsilk;
+    color:darkblue;
 }
 
 li {
@@ -60,4 +60,12 @@ li {
   }
   a:visited {
       color:darkmagenta;
+  }
+  .LI-profile-badge {
+      margin-top:10%;
+  }
+
+  p {
+      color:darkslateblue;
+      font-weight: bolder;
   }
