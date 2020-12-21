@@ -68,12 +68,12 @@ li {
       color:black;
       font-weight: bolder;
       position:absolute;
-      margin-top:35%;
+      margin-top:40%;
       margin-left: 40%;
   }
 
   .LI-profile-badge {
       position: absolute;
-      margin-top:20%;
-      margin-left:45%;
+      margin-top:10%;
+      margin-left:40%;
   }
