@@ -18,42 +18,26 @@ html {
 
 h1 {
     Font-Family: headingFont;
-    Font-Size: 6vw;
+    Font-Size: 7vw;
     color:darkslateblue;
-    margin: 0;
-    padding:0;
-    width:4600px;
+    margin-top: 1vw;
+    padding-left:1vw;
+    width:600px;
 }
 
-.header {
-    position: relative;
-    display: flex;
-    justify-content: stretch;
-    top: 0;
-}
 #header {
-    width: 85%;
-    left: 0;
-    margin: 0;
-}
-
-.navi {
-    
-    text-align: right;
-    padding-top: 50px;
-    font-size: 1.5vw;
-    right: 0;
-    font-family: textFont;
-    color:darkblue;
+    width: auto;
+    position: absolute;
 }
 
 ul {
     list-style-type: none;
-    margin-left:0;
-    padding-left: 0;
-    margin-top:auto;
     color:darkblue;
-    width: 200px;
+    width:fit-content;
+    position:absolute;
+    padding-top:4%;
+    right:2%;
+    font-size:1.5vw;
 }
 
 li {
@@ -66,18 +50,20 @@ li {
 
   #email {
       color:black;
+      font-size: 1.5vw;
       font-weight: bolder;
       position:absolute;
-      margin:0;
-      width:300px;
-      right:15cm;
-      top: 30ex;
+      margin:auto;
+      left: 37vw;
+      top: 15vw;
+
+
 }
 
-  #linkedin {
+  .LI-profile-badge {
       position:absolute;
-      margin:0;
-      right: 16cm;
-      top:8cm;
+      left:47vw;
+      top:25vw;
+
   }
   
