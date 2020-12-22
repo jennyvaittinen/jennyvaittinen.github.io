@@ -18,59 +18,52 @@ html {
 
 h1 {
     Font-Family: headingFont;
-    Font-Size: 86px;
+    Font-Size: 7vw;
     color:blanchedalmond;
-    margin: 1%;
+    width:80vw;
+    padding-left: 1vw;
+    position:absolute;
+    margin-top:1vw;
 }
 
 h2 {
     Font-Family: headingFont;
-    Font-Size: 60px;
+    Font-Size: 5vw;
     color:blanchedalmond;
+    left:1vw;
+    top: 25%;
+    position:absolute;
 }
 
-#sitaatti {
-    margin-top: 5%;
-    Font-Family: textFont;
-    Font-Size: 15px;
-    color: blanchedalmond;
-    margin-bottom: 10%;
-}
-
-.header {
-    position: relative;
-    display: flex;
-    justify-content: stretch;
-    top: 0;
-}
 #header {
-    width: 85%;
+    width: auto;
     left: 0;
     margin: 0;
+    position: absolute;
+    top: 0;
 }
 
 .navi {
     
-    text-align: right;
-    padding-top: 50px;
-    font-size: 120%;
-    right: 0;
-}
-a {
-    font-family: textFont;
-    color:cornsilk;
+    text-align: center;
+    font-size: 1.5vw;
+    right: 2%;
+    font-family:textFont;
+    position:absolute;
+    top: 6vw;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    width:fit-content;
     color:cornsilk;
 }
 
 li {
     display: inline;
   }
+
   a:visited {
       color:darkmagenta;
   }
