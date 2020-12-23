@@ -37,33 +37,33 @@ h1 {
 
 .navi {
     
-    text-align: right;
-    padding-top: 5%;
+    padding-top: 4%;
     font-size: 1.5vw;
-    right: 0;
-}
-a {
-    font-family: textFont;
+    right: 2%;
+    list-style-type: none;
+    margin: 0;
+    padding-right:0;
+    width:20%;
     color:cornsilk;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+a {
+    font-family: textFont;
     color:cornsilk;
 }
 
 li {
     display: inline;
   }
+
   a:visited {
       color:burlywood;
   }
+
   #about {
       font-family: textFont;
       color:honeydew;
-      background-color: black;
+      background-color: rgba(0, 0, 0, 0.637);
       border: 2px solid black;
       position: absolute;
       width:60%;

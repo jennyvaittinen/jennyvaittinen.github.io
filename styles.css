@@ -1,5 +1,5 @@
 html { 
-    background: url("Media/milky-way-1023340_1280.jpg") no-repeat center center fixed; 
+    background: url("Media/milky-way-1023340_1280.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -29,7 +29,7 @@ h1 {
 h2 {
     Font-Family: headingFont;
     Font-Size: 5vw;
-    color:blanchedalmond;
+    color:rgb(255, 216, 168);
     left:1vw;
     top: 25%;
     position:absolute;
@@ -50,10 +50,7 @@ h2 {
     right: 2%;
     font-family:textFont;
     position:absolute;
-    top: 6vw;
-}
-
-ul {
+    top: 4.5vw;
     list-style-type: none;
     margin: 0;
     width:fit-content;

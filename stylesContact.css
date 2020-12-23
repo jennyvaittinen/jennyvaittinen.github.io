@@ -30,7 +30,7 @@ h1 {
     position: absolute;
 }
 
-ul {
+.navi {
     list-style-type: none;
     color:darkblue;
     width:fit-content;
@@ -38,11 +38,13 @@ ul {
     padding-top:4%;
     right:2%;
     font-size:1.5vw;
+    margin:0;
+    overflow:hidden;
 }
 
 li {
-    display:inline;
-  }
+    display: inline;
+}
 
   a:visited {
       color:darkmagenta;
@@ -54,16 +56,12 @@ li {
       font-weight: bolder;
       position:absolute;
       margin:auto;
-      left: 37vw;
       top: 15vw;
-
-
+      left:37%;
 }
 
   .LI-profile-badge {
       position:absolute;
-      left:47vw;
       top:25vw;
-
+      left:40%;
   }
-  
