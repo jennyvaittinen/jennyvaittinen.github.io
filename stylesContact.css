@@ -18,7 +18,7 @@ html {
 
 h1 {
     Font-Family: headingFont;
-    Font-Size: 7vw;
+    Font-Size: 6rem;
     color:darkslateblue;
     margin-top: 1vw;
     padding-left:1vw;
@@ -37,7 +37,7 @@ h1 {
     position:absolute;
     padding-top:4%;
     right:2%;
-    font-size:1.5vw;
+    font-size:1.5rem;
     margin:0;
     overflow:hidden;
 }
@@ -52,16 +52,48 @@ li {
 
   #email {
       color:black;
-      font-size: 1.5vw;
+      font-size: 1.5rem;
       font-weight: bolder;
-      position:absolute;
       margin:auto;
-      top: 15vw;
-      left:37%;
+      position:absolute;
+      left:33%;
+      top: 35%;
 }
 
   .LI-profile-badge {
       position:absolute;
-      top:25vw;
-      left:40%;
+      top:45%;
+      left:37%;
+      margin:auto;
+  }
+
+  @media only screen and (max-width: 750px) {
+      .LI-profile-badge {
+        left:17%;
+      }
+      #email {
+          left:10%;
+      }
+      .navi{
+          position:absolute;
+          right:2%;
+          top:7rem;
+          margin:auto;
+      }
+  }
+
+  @media only screen and (max-width: 454 px) {
+    .LI-profile-badge {
+        top:45%;
+        left:37%;
+      }
+      #email {
+          left:30%;
+          top:35%;
+      }
+      .navi{
+          position:absolute;
+          top:7rem;
+          margin:auto;
+      }
   }
