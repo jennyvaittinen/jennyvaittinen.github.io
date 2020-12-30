@@ -18,19 +18,19 @@ html {
 
 h1 {
     Font-Family: headingFont;
-    Font-Size: 7vw;
+    Font-Size: 7rem;
     color:blanchedalmond;
-    width:80vw;
     padding-left: 1vw;
     position:absolute;
     margin-top:1vw;
+    width:max-content;
 }
 
 h2 {
     Font-Family: headingFont;
-    Font-Size: 5vw;
+    Font-Size: 4rem;
     color:rgb(255, 216, 168);
-    left:1vw;
+    left:1rem;
     top: 25%;
     position:absolute;
 }
@@ -62,5 +62,60 @@ li {
   }
 
   a:visited {
-      color:darkmagenta;
+      color:rgb(172, 52, 172);
   }
+
+  @media only screen and (max-width: 1275px) {
+ 
+    .navi{
+        position:absolute;
+        right:2%;
+        top:3rem;
+        margin:auto;
+        border: 2px solid white;
+        width:fit-content;
+    }
+
+    h1 {
+        font-size: 5rem;
+        position:absolute;
+        width: max-content;
+    }
+
+    h2 {
+        top: 30%;
+        position:absolute;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .navi {
+        top: 6rem;
+        left:45%;
+    }
+}
+@media only screen and (max-width: 868 px) {
+    h1 {
+        width:min-content;
+        position:relative;
+    }
+
+    h2 {
+        top: 30%;
+        position: absolute;
+    }
+
+    .navi{
+        position:absolute;
+        top:7rem;
+        margin:auto;
+    }
+}
+
+@media only screen and (max-width: 414 px) {
+    
+    h1 {
+        width:min-content;
+        position:absolute;
+    }
+}
