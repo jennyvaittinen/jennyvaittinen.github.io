@@ -76,7 +76,7 @@ li {
   }
 
   h3 {
-    font-family: textFont;
+    font-family: headingFont;
     font-size: 3rem;
     color:rgba(255, 217, 0, 0.87);
     position:absolute;
