@@ -113,7 +113,7 @@ li {
 }
 
 @media only screen and (max-width: 414 px) {
-    
+
     h1 {
         width:min-content;
         position:absolute;
