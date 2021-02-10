@@ -1,5 +1,21 @@
-html { 
-    background: url("Media/milky-way-1023340_1280.jpg") no-repeat center center fixed;
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background: url("Media/milky-way-1023340_1280.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -21,9 +37,7 @@ h1 {
     Font-Size: 7rem;
     color:blanchedalmond;
     padding-left: 1vw;
-    position:absolute;
     margin-top:1vw;
-    width:max-content;
 }
 
 h2 {
@@ -31,26 +45,22 @@ h2 {
     Font-Size: 4rem;
     color:rgb(255, 216, 168);
     left:1rem;
-    top: 25%;
-    position:absolute;
+    position: absolute;
+    top: 15vw;
 }
 
 .header {
     width: auto;
-    left: 0;
     margin: 0;
     display: inline-flex;
 }
 
 #navi {
-    
     text-align: center;
     font-size: 1.5vw;
     font-family:textFont;
     float: right;
-    list-style-type: none;
-    margin-top: 5.5vw;
-    width:fit-content;
+    margin-top: 4.5vw;
     color:cornsilk;
 }
 
@@ -85,34 +95,3 @@ li {
     }
 }
 
-@media only screen and (max-width: 1100px) {
-    .navi {
-        top: 6rem;
-        left:45%;
-    }
-}
-@media only screen and (max-width: 868 px) {
-    h1 {
-        width:min-content;
-        position:relative;
-    }
-
-    h2 {
-        top: 30%;
-        position: absolute;
-    }
-
-    .navi{
-        position:absolute;
-        top:7rem;
-        margin:auto;
-    }
-}
-
-@media only screen and (max-width: 414 px) {
-
-    h1 {
-        width:min-content;
-        position:absolute;
-    }
-}
