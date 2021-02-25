@@ -89,7 +89,7 @@ li {
 .links {
     font-family: textFont;
     font-size: 2rem;
-    color:rgba(255, 217, 0, 0.87);
+    color:#ffd900de;
     position:absolute;
     bottom: 15%;
     text-align: center;
