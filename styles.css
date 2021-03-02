@@ -2,24 +2,17 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: black;
   }
   
-  .bg {
-    /* The image used */
-    background: url("Media/milky-way-1023340_1280.jpg");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  #skull {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+      width: 25%;
+      height: 25%;
+      padding-left: 9em;
   }
 
 @font-face {
@@ -34,19 +27,10 @@ body, html {
 
 h1 {
     Font-Family: headingFont;
-    Font-Size: 7rem;
+    Font-Size: 5rem;
     color:blanchedalmond;
     padding-left: 1vw;
     margin-top:1vw;
-}
-
-h2 {
-    Font-Family: headingFont;
-    Font-Size: 4rem;
-    color:rgb(255, 216, 168);
-    left:1rem;
-    position: absolute;
-    top: 15vw;
 }
 
 .header {
@@ -60,7 +44,7 @@ h2 {
     font-size: 1.5vw;
     font-family:textFont;
     float: right;
-    margin-top: 4.5vw;
+    margin-top: 4vw;
     color:cornsilk;
 }
 
@@ -70,6 +54,11 @@ li {
 
   a:visited {
       color:rgb(172, 52, 172);
+  }
+
+  #footer {
+      display: block;
+      
   }
 
   @media only screen and (max-width: 1275px) {
