@@ -47,15 +47,15 @@ li {
     display: inline-flex;
   }
 
-  li a {
+  a {
     display: block;
     text-align: center;
     padding: 50px 16px;
-    text-decoration: none;
     color:cornsilk;
+  }
 
   a:visited {
-      color: rgb(172, 52, 172);
+      color: darkmagenta;
   }
 
   #footer {
