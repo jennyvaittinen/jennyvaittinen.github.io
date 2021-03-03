@@ -2,26 +2,16 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: black;
   }
   
-  .bg {
-    /* The image used */
-    background: url("Media/milky-way-1023340_1280.jpg");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
+#skullDiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
 @font-face {
     font-family: headingFont;
     src: url(jennyvaittinen.github.io/Media/CormorantGaramond-BoldItalic.ttf);
@@ -34,33 +24,22 @@ body, html {
 
 h1 {
     Font-Family: headingFont;
-    Font-Size: 7rem;
+    Font-Size: 4vw;
     color:blanchedalmond;
     padding-left: 1vw;
     margin-top:1vw;
 }
 
-h2 {
-    Font-Family: headingFont;
-    Font-Size: 4rem;
-    color:rgb(255, 216, 168);
-    left:1rem;
-    position: absolute;
-    top: 15vw;
-}
-
 .header {
-    width: fit-content;
     height: 200px;
     display: inline-flex;
 }
 
 #navi {
-    text-align: center;
     font-size: 1.5vw;
     font-family:textFont;
     float: right;
-    margin-top: 4.5vw;
+    
     color:cornsilk;
 }
 
@@ -68,30 +47,33 @@ li {
     display: inline-flex;
   }
 
+  li a {
+    display: block;
+    text-align: center;
+    padding: 50px 16px;
+    text-decoration: none;
+    color:cornsilk;
+
   a:visited {
-      color:rgb(172, 52, 172);
+      color: rgb(172, 52, 172);
   }
 
-  @media only screen and (max-width: 1275px) {
+  #footer {
+      display: block;
+      
+  }
+
+  @media only screen and (max-width: 376px) {
  
     .navi{
-        position:absolute;
-        right:2%;
-        top:3rem;
-        margin:auto;
-        border: 2px solid white;
-        width:fit-content;
+        
     }
 
     h1 {
-        font-size: 5rem;
-        position:absolute;
-        width: max-content;
+       
+        font-size: 1rem;
+        
     }
 
-    h2 {
-        top: 30%;
-        position:absolute;
-    }
 }
 

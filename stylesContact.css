@@ -19,7 +19,7 @@ html {
 h1 {
     Font-Family: headingFont;
     Font-Size: 6vw;
-    color:#ffd900de;
+    color:blanchedalmond;
     margin-top: 1vw;
     padding-left:1vw;
     width:max-content;
@@ -28,7 +28,7 @@ h1 {
 
 #navi {
     list-style-type: none;
-    color:#ffd900de;
+    color:cornsilk;
     font-size: 1.5vw;
     font-family:textFont;
     flex-direction: row;
@@ -52,19 +52,23 @@ li {
 }
 
   #email {
-      color:#ffd900de;
+      color:blanchedalmond;
       font-size: 1.5vw;
       font-weight: bolder;
-      position: relative;
-      padding-left: 37%;
-      padding-top: 8vw;
-      margin:auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      text-align: center;
       
 }
 
   .LI-profile-badge {
-      margin:auto;
-      padding-left: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
       padding-top: 2vw;
   }
 
