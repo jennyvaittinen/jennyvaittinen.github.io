@@ -9,8 +9,14 @@ body, html {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top:0;
     width: 50%;
     text-align: center;
+}
+
+.skull {
+    padding:0;
+    margin:0;
 }
 @font-face {
     font-family: headingFont;
@@ -31,7 +37,7 @@ h1 {
 }
 
 .header {
-    height: 200px;
+    height: 50px;
     display: inline-flex;
 }
 
