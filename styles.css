@@ -5,16 +5,13 @@ body, html {
     background-color: black;
   }
   
-  #skull {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 0;
-      width: 25%;
-      height: 25%;
-      padding-left: 9em;
-  }
-
+#skullDiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
 @font-face {
     font-family: headingFont;
     src: url(jennyvaittinen.github.io/Media/CormorantGaramond-BoldItalic.ttf);
@@ -27,24 +24,22 @@ body, html {
 
 h1 {
     Font-Family: headingFont;
-    Font-Size: 5rem;
+    Font-Size: 4vw;
     color:blanchedalmond;
     padding-left: 1vw;
     margin-top:1vw;
 }
 
 .header {
-    width: fit-content;
     height: 200px;
     display: inline-flex;
 }
 
 #navi {
-    text-align: center;
     font-size: 1.5vw;
     font-family:textFont;
     float: right;
-    margin-top: 4vw;
+    
     color:cornsilk;
 }
 
@@ -52,8 +47,15 @@ li {
     display: inline-flex;
   }
 
+  li a {
+    display: block;
+    text-align: center;
+    padding: 50px 16px;
+    text-decoration: none;
+    color:cornsilk;
+
   a:visited {
-      color:rgb(172, 52, 172);
+      color: rgb(172, 52, 172);
   }
 
   #footer {
@@ -61,26 +63,17 @@ li {
       
   }
 
-  @media only screen and (max-width: 1275px) {
+  @media only screen and (max-width: 376px) {
  
     .navi{
-        position:absolute;
-        right:2%;
-        top:3rem;
-        margin:auto;
-        border: 2px solid white;
-        width:fit-content;
+        
     }
 
     h1 {
-        font-size: 5rem;
-        position:absolute;
-        width: max-content;
+       
+        font-size: 1rem;
+        
     }
 
-    h2 {
-        top: 30%;
-        position:absolute;
-    }
 }
 

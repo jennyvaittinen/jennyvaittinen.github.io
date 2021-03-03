@@ -1,9 +1,5 @@
 html { 
-    background: url("Media/taustaAbout.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background-color: black;
   }
   
 @font-face {
@@ -19,14 +15,13 @@ html {
 h1 {
     Font-Family: headingFont;
     Font-Size: 6rem;
-    color:rgba(255, 217, 0, 0.87);
+    color:blanchedalmond;
     margin: 1%;
 }
 
 .header {
     position: relative;
     display: flex;
-    justify-content: stretch;
     top: 0;
 }
 #header {
@@ -35,16 +30,14 @@ h1 {
     margin: 0;
 }
 
-.navi {
-    
+#navi {
     padding-top: 4%;
-    font-size: 1.5rem;
-    left: 80%;
+    font-size: 1.5vw;
     list-style-type: none;
     margin: 0;
     padding-right:0;
-    width:20%;
     color:cornsilk;
+    width: 25vw;
 }
 
 a {
@@ -56,15 +49,21 @@ li {
     display: inline;
   }
 
+  li a {
+    display: inline;
+    text-align: center;
+    padding: 3px 16px;
+    text-decoration: none;
+    color:cornsilk;
+  }
+
   a:visited {
-      color:burlywood;
+      color:darkmagenta;
   }
 
   #about {
       font-family: textFont;
       color:honeydew;
-      background-color: rgba(0, 0, 0, 0.637);
-      border: 2px solid black;
       position: absolute;
       width:60%;
       padding: 4px;
@@ -78,7 +77,7 @@ li {
   h3 {
     font-family: headingFont;
     font-size: 3rem;
-    color:rgba(255, 217, 0, 0.87);
+    color:blanchedalmond;
     position:absolute;
     bottom: 20%;
     text-align: center;
@@ -89,7 +88,7 @@ li {
 .links {
     font-family: textFont;
     font-size: 2rem;
-    color:#ffd900de;
+    color:cornsilk;
     position:absolute;
     bottom: 15%;
     text-align: center;
