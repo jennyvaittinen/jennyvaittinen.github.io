@@ -14,7 +14,7 @@ html {
 
 h1 {
     Font-Family: headingFont;
-    Font-Size: 6rem;
+    Font-Size: 4vw;
     color:blanchedalmond;
     margin: 1%;
 }
@@ -31,7 +31,7 @@ h1 {
 }
 
 #navi {
-    padding-top: 4%;
+    padding-top: 30px;
     font-size: 1.5vw;
     list-style-type: none;
     margin: 0;

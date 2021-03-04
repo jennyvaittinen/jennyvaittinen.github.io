@@ -13,29 +13,31 @@ html {
 }
 
 .top {
-    display: flex;
+    display: inline-flex;
     height: 200px;
+    text-align: left;
 }
 h1 {
     Font-Family: headingFont;
-    Font-Size: 6vw;
+    Font-Size: 4vw;
     color:blanchedalmond;
     margin-top: 1vw;
     padding-left:1vw;
     width:max-content;
     flex-direction: row;
+    text-align: left;
 }
 
 #navi {
-    list-style-type: none;
-    color:cornsilk;
+    padding-top: 30px;
     font-size: 1.5vw;
-    font-family:textFont;
-    flex-direction: row;
-    padding-left: 100vh;
-    margin-top: 3.5vw;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    list-style-type: none;
+    margin-left: 30vw;
+    padding-right:0;
+    padding-left: 30vw;
+    color:cornsilk;
+    width: 25vw;
+    float: right;
 }
 
 li {
