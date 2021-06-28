@@ -3,9 +3,10 @@ body, html {
     margin: 0;
     padding: 0;
     background-color: black;
+    box-sizing: border-box;
   }
   
-#skullDiv {
+#welcome-section {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -37,30 +38,24 @@ h1 {
     flex-direction: column;
 }
 
-.header {
-    height: 120px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#navi {
+#navbar {
     font-size: 1.5vw;
     font-family:textFont;
     float: right;
-    flex-direction: column;
+    display: flex;
     color:cornsilk;
     margin-left: 15vw;
     padding-left: 15vw;
 }
 
 li {
-    display: inline-flex;
+
   }
 
   a {
     display: block;
     text-align: center;
-    padding: 30px 16px;
+    padding: 30px 0px;
     color:cornsilk;
   }
 

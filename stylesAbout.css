@@ -16,13 +16,13 @@ h1 {
     Font-Family: headingFont;
     Font-Size: 4vw;
     color:blanchedalmond;
-    margin: 1%;
 }
 
 .header {
     position: relative;
     display: flex;
     top: 0;
+    justify-content: stretch;
 }
 #header {
     width: 85%;
@@ -52,7 +52,7 @@ li {
   li a {
     display: inline;
     text-align: center;
-    padding: 3px 16px;
+    padding: 0px 0px;
     text-decoration: none;
     color:cornsilk;
   }
