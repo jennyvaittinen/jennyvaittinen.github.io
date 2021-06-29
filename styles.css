@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 *,
 *::before,
 *::after {
@@ -12,6 +17,27 @@ html, body {
     scroll-behavior: smooth;
     box-sizing: border-box;
   }
+
+  @media (max-width: 75em) {
+    html {
+      font-size: 60%;
+    }
+  }
+  
+  /* 980px / 16px = 61.25em */
+  @media (max-width: 61.25em) {
+    html {
+      font-size: 58%;
+    }
+  }
+  
+  /* 460px / 16px = 28.75em */
+  @media (max-width: 28.75em) {
+    html {
+      font-size: 55%;
+    }
+  }
+
 /*nav begin*/
   .nav {
     display: flex;
@@ -24,7 +50,7 @@ html, body {
     background: purple;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
-    height:7vw;
+    height:5vw;
   }
   
   .nav-list {
@@ -49,7 +75,7 @@ html, body {
   }
   
   .nav-list a:hover {
-    background: lightgrey;
+    background: rgb(136, 47, 136);
   }
 }
 
@@ -57,20 +83,22 @@ html, body {
 
 .welcome-section {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 200vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
 
 .welcome-section > p {
-    font-size: 3rem;
+    font-size: 2vw;
     font-weight: 200;
     font-style: italic;
     text-align: center;
     color: antiquewhite;
-    height: 25vw;
+    padding-bottom: 86vh;
   }
 
 @font-face {
