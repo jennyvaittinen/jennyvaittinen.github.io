@@ -61,6 +61,7 @@ html, body {
   @media (max-width: 28.75em) {
     .nav {
       justify-content: center;
+      height: 10vw;
     }
   
     .nav-list {
@@ -124,6 +125,22 @@ h2 {
     font-family: headingFont;
     color: blanchedalmond;
     text-align:center;
+  }
+
+  @media (max-width:800px) {
+    
+    h1 {
+      font-size:10vw;
+    }
+
+    h2 {
+
+      font-size: 8vw;
+    }
+
+    .welcome-section > p {
+      font-size: 6vw;
+    }
   }
 
 li {
