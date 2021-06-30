@@ -11,7 +11,7 @@
 
 html, body {
     height: 100%;
-    margin-top: 10vw;
+    margin-top: 5vw;
     padding: 0;
     background-color: black;
     scroll-behavior: smooth;
@@ -125,6 +125,19 @@ h2 {
     font-family: headingFont;
     color: blanchedalmond;
     text-align:center;
+  }
+
+  #profilePic {
+    width:100%;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  figure {
+    width: 30%;
+    height:auto;
+    display:block;
+    margin: auto;
   }
 
   @media (max-width:800px) {
