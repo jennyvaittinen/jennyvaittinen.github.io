@@ -47,7 +47,7 @@ html, body {
     top: 0;
     left: 0;
     width: 100%;
-    background: purple;
+    background: rgb(180, 7, 180);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
     height:5vw;
@@ -61,11 +61,11 @@ html, body {
   @media (max-width: 28.75em) {
     .nav {
       justify-content: center;
-      height: 10vw;
+      height: 15vw;
     }
   
     .nav-list {
-      margin: 0 1rem;
+      margin: auto;
     }
   }
   
@@ -73,10 +73,11 @@ html, body {
     display: block;
     font-size: 2.2rem;
     padding: 1vw;
+    border-radius: 4px;
   }
   
   .nav-list a:hover {
-    background: rgb(136, 47, 136);
+    background: rgb(201, 8, 201);
   }
 }
 
@@ -99,7 +100,11 @@ html, body {
     font-style: italic;
     text-align: center;
     color: antiquewhite;
-    padding-bottom: 86vh;
+    padding-bottom: 20vh;
+  }
+
+  #about-me {
+    font-style:normal;
   }
 
 @font-face {
@@ -154,6 +159,18 @@ h2 {
     .welcome-section > p {
       font-size: 6vw;
     }
+
+    .nav {
+      height:15vw;
+    }
+
+      
+  .nav-list a {
+    display: block;
+    font-size: 5rem;
+    padding: 3vw;
+    border-radius: 4px;
+  }
   }
 
 li {
@@ -169,7 +186,7 @@ li {
   }
 
   a:visited {
-      color: rgb(250, 59, 100);
+      color: rgb(250, 131, 157);
   }
 
   /* Projects section */
@@ -184,7 +201,6 @@ li {
     max-width: 640px;
     margin: 0 auto 6rem auto;
     border-bottom: 0.2rem solid white;
- 
   }
   
   @media (max-width: 28.75em) {
@@ -218,6 +234,7 @@ li {
     background: lightgray;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 4px;
+    display:block;
   }
   
   .code {
@@ -238,6 +255,8 @@ li {
   .project-title {
     font-size: 2rem;
     text-align: center;
+    margin: auto;
+    padding-top: 8vw;
   }
   
   .btn {
