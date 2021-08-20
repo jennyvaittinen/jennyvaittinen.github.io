@@ -233,14 +233,14 @@ li {
   }
   
   .project {
-    background: gray;
+    background: rgb(88, 88, 88);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 4px;
     display:block;
   }
   
   .code {
-    color: gray;
+    color: rgb(88, 88, 88);
     transition: color 0.3s ease-out;
   }
   
@@ -270,7 +270,7 @@ li {
   
   .btn-show-all {
     font-size: 2rem;
-    background: gray;
+    background: rgb(88, 88, 88);
     transition: background 0.3s ease-out;
     margin: 3vw;
   }
