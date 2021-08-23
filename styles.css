@@ -364,3 +364,9 @@ li {
     }
   }
   
+  @media (max-width:768px) {
+
+    #welcome-section {
+      padding-top: 10vh;
+    }
+  }
