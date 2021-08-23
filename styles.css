@@ -369,4 +369,12 @@ li {
     #welcome-section {
       padding-top: 10vh;
     }
+
+    .nav-list a {
+      display: block;
+      font-size: 3.2rem;
+      padding: 3vw;
+      border-radius: 4px;
+      
+    }
   }
