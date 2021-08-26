@@ -68,7 +68,7 @@ li {
    text-align: center;
    padding: 30px 0px;
    color:cornsilk;
-   font-family: headingFont;
+   font-family: 'Cormorant Garamond', serif;
  }
 
  a:visited {
@@ -124,18 +124,8 @@ li {
     font-style:normal;
   }
 
-@font-face {
-    font-family: headingFont;
-    src: url(jennyvaittinen.github.io/Media/CormorantGaramond-BoldItalic.ttf);
-}
-
-@font-face {
-    font-family: textFont;
-    src: url(jennyvaittinen.github.io/Media/FiraSans-Regular.ttf);
-}
-
 h1 {
-    Font-Family: headingFont;
+  font-family: 'Cormorant Garamond', serif;
     Font-Size: 3vw;
     padding-bottom:1vw;
     color:blanchedalmond;
@@ -146,7 +136,7 @@ h1 {
 h2 {
     font-size: 2vw;
     padding-top: 1vw;
-    font-family: headingFont;
+    font-family: 'Cormorant Garamond', serif;
     color: blanchedalmond;
     text-align:center;
   }
@@ -261,11 +251,11 @@ h2 {
   }
   
   .project-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     margin: auto;
     padding-top: 2vw;
-    font-family: textFont;
+    font-family: 'Fira Sans', sans-serif;
   }
   
   .btn {
@@ -279,6 +269,7 @@ h2 {
     background: #3A3B9C;
     transition: background 0.3s ease-out;
     margin: 3vw;
+    font-family: 'Fira Sans', sans-serif;
   }
   
   .btn-show-all:hover {
@@ -352,6 +343,7 @@ h2 {
   footer > p {
     margin: 2rem;
     color: antiquewhite;
+    font-family: 'Fira Sans', sans-serif;
   }
   
   footer i {
