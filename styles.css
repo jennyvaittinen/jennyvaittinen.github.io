@@ -114,14 +114,15 @@ li {
 .welcome-section > p {
     font-size: 2vw;
     font-weight: 200;
-    font-style: italic;
+    font-family: 'Fira Sans', sans-serif;
     text-align: center;
     color: antiquewhite;
-    padding-bottom: 10vh;
+    padding-bottom: 8vh;
   }
 
   #about-me {
     font-style:normal;
+    padding-bottom: 10vh;
   }
 
 h1 {
@@ -300,7 +301,7 @@ h2 {
   }
   
   .contact-section-header > h2 {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   
   @media (max-width: 28.75em) {
