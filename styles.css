@@ -58,6 +58,23 @@ html, body {
     margin-right: 2vw;
   }
   
+li {
+  list-style: none;
+  display: inline;
+ }
+
+ a {
+   text-decoration: none;
+   text-align: center;
+   padding: 30px 0px;
+   color:cornsilk;
+   font-family: headingFont;
+ }
+
+ a:visited {
+     color: #E0AAFF;
+ }
+  
   @media (max-width: 28.75em) {
     .nav {
       justify-content: center;
@@ -74,7 +91,7 @@ html, body {
     font-size: 2.2rem;
     padding: 1vw;
     border-radius: 4px;
-    
+
   }
   
   .nav-list a:hover {
@@ -119,17 +136,23 @@ html, body {
 
 h1 {
     Font-Family: headingFont;
-    Font-Size: 4vw;
+    Font-Size: 3vw;
+    padding-bottom:1vw;
     color:blanchedalmond;
     font-weight: 700;
     text-align: center;
 }
 
 h2 {
-    font-size: 4.2vw;
+    font-size: 2vw;
+    padding-top: 1vw;
     font-family: headingFont;
     color: blanchedalmond;
     text-align:center;
+  }
+
+  p {
+    font-size: 1.5vw;
   }
 
   #profilePic {
@@ -172,22 +195,6 @@ h2 {
     border-radius: 4px;
     
   }
-  }
-
-li {
-   list-style: none;
-   display: inline;
-  }
-
-  a {
-    text-decoration: none;
-    text-align: center;
-    padding: 30px 0px;
-    color:cornsilk;
-  }
-
-  a:visited {
-      color: #E0AAFF;
   }
 
   /* Projects section */
@@ -303,19 +310,13 @@ li {
   }
   
   .contact-section-header > h2 {
-    font-size: 6rem;
+    font-size: 4vw;
   }
   
   @media (max-width: 28.75em) {
     .contact-section-header > h2 {
       font-size: 4rem;
     }
-  }
-  
-  .contact-section-header > p {
-    font-style: italic;
-    font-family: textFont;
-    font-size: larger;
   }
   
   .contact-links {
