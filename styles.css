@@ -199,6 +199,7 @@ h2 {
   .projects-section-header {
     max-width: 640px;
     margin: 0 auto 6rem auto;
+    padding-top: 10vh;
   }
   
   @media (max-width: 28.75em) {
@@ -268,8 +269,9 @@ h2 {
     font-size: 2rem;
     background: #3A3B9C;
     transition: background 0.3s ease-out;
-    margin: 3vw;
+    margin: 6vw;
     font-family: 'Fira Sans', sans-serif;
+
   }
   
   .btn-show-all:hover {
@@ -344,6 +346,7 @@ h2 {
     margin: 2rem;
     color: antiquewhite;
     font-family: 'Fira Sans', sans-serif;
+    font-size: smaller;
   }
   
   footer i {
