@@ -98,6 +98,9 @@ li {
   width: 100%;
   height: 110vh;
   background-color: hsl(268, 63%, 22%);
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1000px;
 }
 
 .welcome-section > p {
@@ -107,11 +110,12 @@ li {
     text-align: center;
     color: antiquewhite;
     padding-bottom: 6.5vw;
+
   }
 
   #profession {
     padding-top: 1.5vw;
-    padding-bottom: 0;
+    padding-bottom: 8rem;
     margin: 0;
   }
 
@@ -142,10 +146,11 @@ h2 {
     width:100%;
     height: auto;
     border-radius: 50%;
+    display: block;
   }
 
   figure {
-    width: 30%;
+    width: 50%;
     height:auto;
     display:block;
     margin: auto;
