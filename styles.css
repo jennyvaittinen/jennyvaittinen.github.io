@@ -11,9 +11,9 @@
 
 html, body {
     height: 100%;
-    margin-top: 3vw;
+    margin-top: 4vw;
     padding: 0;
-    background-color: #4a006f;
+    background-color: hsl(268, 63%, 22%);
     scroll-behavior: smooth;
     box-sizing: border-box;
   }
@@ -47,7 +47,8 @@ html, body {
     top: 0;
     left: 0;
     width: 100%;
-    background: #000000;
+    background: hsl(268, 63%, 10%);
+    border-bottom: 1px solid hsl(268, 63%, 20%);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
     height:4vw;
@@ -61,6 +62,7 @@ html, body {
 li {
   list-style: none;
   display: inline;
+  
  }
 
  a {
@@ -77,16 +79,14 @@ li {
   
   .nav-list a {
     display: block;
-    font-size: 1.5rem;
-    padding: 1vw;
+    font-size: 2.5rem;
+    padding: 0.8vw;
     border-radius: 4px;
-
   }
   
   .nav-list a:hover {
-    background: #7B2CBF;
+    background: #7129b1;
   }
-}
 
 /*nav end*/
 
@@ -96,11 +96,12 @@ li {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 30vh;
-  background-color: #10002B;
+  height: 100vh;
+  background-color: hsl(268, 63%, 22%);
 }
 
 .welcome-section > p {
+  padding-top: 1.5vw;
     font-size: 2.5rem;
     font-weight: 200;
     font-family: 'Fira Sans', sans-serif;
@@ -117,11 +118,10 @@ li {
 h1 {
   font-family: 'Cormorant Garamond', serif;
     Font-Size: 3.5rem;
-    padding-bottom:1vw;
     color:blanchedalmond;
     font-weight: 700;
     text-align: center;
-    padding-bottom: 4vw;
+    padding-bottom: 3vw;
 }
 
 h2 {
@@ -136,7 +136,6 @@ h2 {
     width:100%;
     height: auto;
     border-radius: 50%;
-    display: block;
   }
 
   figure {
@@ -197,7 +196,7 @@ h2 {
 
 .projects-section {
     text-align: center;
-    background: #421E86;
+    background: hsl(261, 63%, 32%);
     width: auto;
   }
   
