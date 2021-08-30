@@ -101,13 +101,18 @@ li {
 }
 
 .welcome-section > p {
-  padding-top: 1.5vw;
     font-size: 2.5rem;
     font-weight: 200;
     font-family: 'Fira Sans', sans-serif;
     text-align: center;
     color: antiquewhite;
     padding-bottom: 8vh;
+  }
+
+  .profession {
+    padding-top: 1.5vw;
+    padding-bottom: 0;
+    margin: 0;
   }
 
   #about-me {
