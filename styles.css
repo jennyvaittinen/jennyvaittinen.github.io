@@ -11,7 +11,7 @@
 
 html, body {
     height: 100%;
-    margin-top: 4vw;
+    margin-top: 6vw;
     padding: 0;
     background-color: hsl(268, 63%, 22%);
     scroll-behavior: smooth;
