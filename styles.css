@@ -13,45 +13,43 @@ html, body {
     height: 100%;
     margin-top: 4vw;
     padding: 0;
-    background-color: hsl(268, 63%, 22%);
+    background-color: hsl(265, 63%, 22%);
     scroll-behavior: smooth;
     box-sizing: border-box;
   }
 
-  @media (max-width: 75em) {
-    html {
-      font-size: 60%;
-    }
+  header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: hsl(269, 63%, 15%);
+    border-bottom: 1px solid hsl(268, 63%, 10%);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 99;
+    height: 5rem;
   }
-  
-  /* 980px / 16px = 61.25em */
-  @media (max-width: 61.25em) {
-    html {
-      font-size: 58%;
-    }
-  }
-  
-  /* 460px / 16px = 28.75em */
-  @media (max-width: 28.75em) {
-    html {
-      font-size: 55%;
-    }
+
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+      Font-Size: 3.5rem;
+      color:blanchedalmond;
+      font-weight: 700;
+      top: 0;
+      padding-left: 2rem;
   }
 
 /*nav begin*/
   .nav {
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    position: fixed;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
     top: 0;
-    left: 0;
-    width: 100%;
-    background: hsl(268, 63%, 10%);
-    border-bottom: 1px solid hsl(268, 63%, 20%);
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-    z-index: 10;
-    height:4vw;
+    right: 10px;
+    width: fit-content;
+    height: 4vw;
   }
   
   .nav-list {
@@ -62,7 +60,6 @@ html, body {
 li {
   list-style: none;
   display: inline;
-  
  }
 
  a {
@@ -79,7 +76,7 @@ li {
   
   .nav-list a {
     display: block;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0.6vw;
     border-radius: 4px;
   }
@@ -97,7 +94,7 @@ li {
   align-items: center;
   width: 100%;
   height: 110vh;
-  background-color: hsl(268, 63%, 22%);
+  background-color: hsl(265, 63%, 22%);
   align-content: center;
   margin: 0 auto;
   padding: 0 10px;
@@ -124,15 +121,6 @@ li {
     padding-bottom: 10vh;
   }
 
-h1 {
-  font-family: 'Cormorant Garamond', serif;
-    Font-Size: 3.5rem;
-    color:blanchedalmond;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 3vw;
-    padding-bottom: 2vw;
-}
 
 h2 {
     font-size: 3rem;
@@ -155,53 +143,6 @@ h2 {
     margin: auto;
   }
 
-  @media (max-width:770px) {
-    
-    main {
-      margin: 4vw;
-    }
-
-    h1 {
-      font-size: 4rem;
-    }
-
-    h2 {
-      font-size: 3rem;
-    }
-
-    .welcome-section > p {
-      font-size: 2rem;
-    }
-
-    .nav {
-      height: 5vw;
-    }
-
-      
-  .nav-list a {
-    display: block;
-    font-size: 2rem;
-    padding: 1vw;
-    border-radius: 4px;
-    
-  }
-  }
-
-  @media (max-width: 28.75em) {
-    .nav {
-      justify-content: center;
-      height: 12vw;
-    }
-  
-    .nav-list {
-      margin: auto;
-    }
-
-    .nav-list a {
-      padding: 0.5rem;
-    }
-  }
-
   /* Projects section */
 
 .projects-section {
@@ -216,12 +157,6 @@ h2 {
     padding-top: 10vh;
   }
   
-  @media (max-width: 28.75em) {
-    .projects-section-header {
-      font-size: 4rem;
-    }
-  }
-  
   /* "Automagic" image grid using no media queries */
   .projects-grid {
     display: grid;
@@ -231,16 +166,6 @@ h2 {
     max-width: 1280px;
     margin: 0 auto;
     margin-bottom: 5vw;
-  }
-  
-  @media (max-width: 30.625em) {
-    .projects-section {
-      padding: 6rem 1rem;
-    }
-  
-    .projects-grid {
-      grid-template-columns: 1fr;
-    }
   }
   
   .project {
@@ -320,12 +245,6 @@ h2 {
     font-size: 3vw;
   }
   
-  @media (max-width: 28.75em) {
-    .contact-section-header > h2 {
-      font-size: 4rem;
-    }
-  }
-  
   .contact-links {
     display: flex;
     justify-content: center;
@@ -366,8 +285,89 @@ h2 {
   footer i {
     vertical-align: middle;
   }
+
+  @media (max-width: 75em) {
+    html {
+      font-size: 60%;
+    }
+  }
   
-  @media (max-width: 28.75em) {
+  /* 980px / 16px = 61.25em */
+  @media (max-width: 61.25em) {
+    html {
+      font-size: 58%;
+    }
+  }
+
+  @media (max-width:770px) {
+    
+    main {
+      margin: 4vw;
+    }
+
+    h1 {
+      font-size: 4rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    .welcome-section > p {
+      font-size: 2rem;
+    }
+
+    .nav {
+      height: 5vw;
+    }
+
+  .nav-list a {
+    display: block;
+    font-size: 2rem;
+    padding: 1vw;
+    border-radius: 4px;
+  }
+}
+
+  @media (max-width: 30.625em) {
+    .projects-section {
+      padding: 6rem 1rem;
+    }
+  
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+
+   /* 460px / 16px = 28.75em */
+   @media (max-width: 28.75em) {
+   
+    html {
+      font-size: 55%;
+    }
+
+    .nav {
+      justify-content: center;
+      height: 12vw;
+    }
+  
+    .nav-list {
+      margin: auto;
+    }
+
+    .nav-list a {
+      padding: 0.5rem;
+    }
+
+    .projects-section-header {
+      font-size: 4rem;
+    }
+
+    .contact-section-header > h2 {
+      font-size: 4rem;
+    }
+
     footer {
       flex-direction: column;
       text-align: center;
