@@ -13,7 +13,7 @@ html, body {
     height: 100%;
     margin-top: 4vw;
     padding: 0;
-    background-color: hsl(270, 72%, 26%);
+    background-image: linear-gradient(hsl(270, 72%, 26%), hsl(259, 66%, 31%));
     scroll-behavior: smooth;
     box-sizing: border-box;
   }
@@ -25,7 +25,7 @@ html, body {
     width: 100%;
     position: fixed;
     top: 0;
-    background: hsl(280, 84%, 21%);
+    background-image: linear-gradient(hsl(280, 84%, 11%), hsl(270, 72%, 26%));
     border-bottom: 1px solid hsl(280, 84%, 21%);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 99;
@@ -92,13 +92,12 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: auto;
   height: 110vh;
-  background-color: hsl(270, 72%, 26%);
+  background-image: linear-gradient(hsl(270, 72%, 26%), hsl(259, 66%, 31%));
   align-content: center;
   margin: 0 auto;
   padding: 0 10px;
-  max-width: 1000px;
 }
 
 .welcome-section > p {
@@ -137,7 +136,7 @@ h2 {
   }
 
   figure {
-    width: 35%;
+    width: 25%;
     height:auto;
     display:block;
     margin: auto;
@@ -146,8 +145,9 @@ h2 {
   /* Projects section */
 
 .projects-section {
+  
+    background-image: linear-gradient(hsl(259, 66%, 31%), hsl(235, 78%, 29%));
     text-align: center;
-    background: hsl(259, 66%, 31%);
     width: auto;
   }
   
@@ -238,7 +238,7 @@ h2 {
     width: 100%;
     height: 80vh;
     padding: 0 2rem;
-    background: hsl(235, 78%, 29%);
+    background-image: linear-gradient(hsl(235, 78%, 29%), hsl(226, 88%, 38%));
   }
   
   .contact-section-header > h2 {
@@ -271,7 +271,7 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     padding: 2rem;
-    background: hsl(226, 88%, 38%);
+    background-image: linear-gradient(hsl(226, 88%, 38%), hsl(226, 88%, 18%));
     border-top: 4px solid royalblue;
   }
   
