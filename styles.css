@@ -13,7 +13,10 @@ html, body {
     height: 100%;
     margin-top: 4vw;
     padding: 0;
-    background-image: linear-gradient(hsl(270, 72%, 26%), hsl(259, 66%, 31%));
+    background-image: linear-gradient(hsl(270, 72%, 26%) 25%, hsl(259, 66%, 31%) 25%, hsl(235, 78%, 29%) 25%, hsl(226, 88%, 38%) 25%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     scroll-behavior: smooth;
     box-sizing: border-box;
   }
@@ -93,11 +96,9 @@ li {
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 110vh;
   background-image: linear-gradient(hsl(270, 72%, 26%), hsl(259, 66%, 31%));
   align-content: center;
-  margin: 0 auto;
-  padding: 0 10px;
+  margin: auto;
 }
 
 
@@ -118,13 +119,11 @@ li {
   #about-me {
     font-style:normal;
     padding-top: 0;
-    padding-bottom: 10vh;
   }
 
 
 h2 {
     font-size: 3rem;
-    padding-top: 6rem;
     padding-bottom: 2rem;
     font-family: 'Cormorant Garamond', serif;
     color: blanchedalmond;
@@ -139,6 +138,7 @@ h2 {
 
   h3 {
     font-size: 2.5rem;
+    margin-bottom: 10rem;
     margin-top: 2rem;
     font-weight: 300;;
     font-family: 'Fira Sans', sans-serif;
@@ -147,7 +147,7 @@ h2 {
   }
 
   figure {
-    width: 28%;
+    width: 27%;
     height:auto;
     display:block;
     margin: auto;
@@ -160,13 +160,12 @@ h2 {
     background-image: linear-gradient(hsl(259, 66%, 31%), hsl(235, 78%, 29%));
     text-align: center;
     width: auto;
-    
   }
   
   .projects-section-header {
     max-width: 640px;
-    margin: 0 auto 6rem auto;
-    padding-top: 10vh;
+    margin: 0 auto 4rem auto;
+    padding-top: 16vh;
   }
   
   /* "Automagic" image grid using no media queries */
@@ -247,7 +246,7 @@ h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: auto;
     height: 80vh;
     padding: 0 2rem;
     background-image: linear-gradient(hsl(235, 78%, 29%), hsl(226, 88%, 38%));
