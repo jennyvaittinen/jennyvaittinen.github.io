@@ -160,6 +160,7 @@ h2 {
     background-image: linear-gradient(hsl(259, 66%, 31%), hsl(235, 78%, 29%));
     text-align: center;
     width: auto;
+    
   }
   
   .projects-section-header {
@@ -402,6 +403,16 @@ h2 {
     .nav-list a {
       padding: 0.5rem;
       font-size: 2rem;
+    }
+
+    .welcome-section > p {
+      font-size: 2rem;
+      font-weight: 200;
+      font-family: 'Fira Sans', sans-serif;
+      text-align: center;
+      color: antiquewhite;
+      padding-bottom: 6.5rem;
+  
     }
 
     .projects-section-header {
