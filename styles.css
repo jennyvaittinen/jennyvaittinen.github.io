@@ -100,6 +100,7 @@ li {
   padding: 0 10px;
 }
 
+
 .welcome-section > p {
     font-size: 2rem;
     font-weight: 200;
@@ -123,7 +124,8 @@ li {
 
 h2 {
     font-size: 3rem;
-    padding-top: 1.5vw;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
     font-family: 'Cormorant Garamond', serif;
     color: blanchedalmond;
     text-align:center;
@@ -135,8 +137,17 @@ h2 {
     border-radius: 50%;
   }
 
+  h3 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    font-weight: 300;;
+    font-family: 'Fira Sans', sans-serif;
+    color: blanchedalmond;
+    text-align: center;
+  }
+
   figure {
-    width: 25%;
+    width: 28%;
     height:auto;
     display:block;
     margin: auto;
@@ -300,6 +311,10 @@ h2 {
   }
 
   @media (max-width:770px) {
+
+    header {
+      height: 6rem;
+    }
     
     main {
       margin: 4vw;
@@ -310,7 +325,13 @@ h2 {
     }
 
     h2 {
-      font-size: 3rem;
+      font-size: 3.5rem;
+      margin-top: 7rem;
+      margin-bottom: 4rem;
+    }
+
+    figure {
+      width: 70%;
     }
 
     .welcome-section > p {
@@ -323,9 +344,18 @@ h2 {
 
   .nav-list a {
     display: block;
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 1vw;
     border-radius: 4px;
+  }
+
+  #about-me {
+    padding-top: 5rem;
+    padding-bottom: 10vh;
+  }
+
+  .contact-section-header > h2 {
+    font-size: 3rem;
   }
 }
 
@@ -347,6 +377,10 @@ h2 {
       font-size: 55%;
     }
 
+    h1 {
+      display: none;
+    }
+
     .nav {
       justify-content: center;
       height: 12vw;
@@ -356,8 +390,18 @@ h2 {
       margin: auto;
     }
 
+    header {
+      justify-content: flex-end;
+    }
+
+
+    main {
+      margin-top: 17rem;
+    }
+
     .nav-list a {
       padding: 0.5rem;
+      font-size: 2rem;
     }
 
     .projects-section-header {
