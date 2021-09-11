@@ -13,7 +13,7 @@ html, body {
     height: auto;
     width: 100%;
     margin-top: 4vw;
-    background-image: linear-gradient(hsl(270, 72%, 26%), hsl(259, 66%, 31%), hsl(235, 78%, 29%), hsl(226, 88%, 38%));
+    background-image: linear-gradient(hsl(270, 72%, 26%), hsl(263, 78%, 36%), hsl(239, 67%, 38%));
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -277,7 +277,7 @@ h2 {
     justify-content: space-evenly;
     padding: 2rem;
     background-image: linear-gradient(hsl(226, 88%, 38%), hsl(226, 88%, 18%));
-    border-top: 4px solid royalblue;
+    border-top: 4px solid hsl(226, 88%, 18%);
   }
   
   footer > p {
