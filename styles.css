@@ -213,6 +213,7 @@ h2 {
   .btn-show-all {
     font-size: 2rem;
     background: hsl(248, 71%, 37%);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     transition: background 0.3s ease-out;
     margin: 3vw 3vw 8vw 3vw;
     font-family: 'Fira Sans', sans-serif;
