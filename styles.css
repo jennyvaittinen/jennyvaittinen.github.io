@@ -24,7 +24,7 @@ html, body {
   header {
     display: inline-flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 100%;
     position: fixed;
     top: 0;
@@ -36,7 +36,9 @@ html, body {
   }
 
   .invisible {
-    visibility: hidden;
+    width: 5%;
+    height: auto;
+    border-radius: 50%;
   }
 
   h1 {
