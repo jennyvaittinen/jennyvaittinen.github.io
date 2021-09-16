@@ -35,6 +35,10 @@ html, body {
     height: 4rem;
   }
 
+  .invisible {
+    visibility: hidden;
+  }
+
   h1 {
     font-family: 'Cormorant Garamond', serif;
       Font-Size: 3rem;
