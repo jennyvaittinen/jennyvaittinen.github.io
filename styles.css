@@ -12,7 +12,7 @@
 html, body {
     height: auto;
     width: 100%;
-    margin-top: 4vw;
+    margin-top: 3.5vw;
     background-image: linear-gradient(hsl(270, 72%, 26%), hsl(263, 78%, 36%), hsl(239, 67%, 38%));
     background-position: center;
     background-size: cover;
@@ -34,6 +34,7 @@ html, body {
     z-index: 99;
     height: 4rem;
   }
+
 
   h1 {
     font-family: 'Cormorant Garamond', serif;
@@ -119,7 +120,7 @@ li {
 
 
 h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     padding-bottom: 2rem;
     font-family: 'Cormorant Garamond', serif;
     color: blanchedalmond;
@@ -133,7 +134,7 @@ h2 {
   }
 
   h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 10rem;
     padding-bottom: 7rem;
     margin-top: 2rem;
@@ -147,7 +148,7 @@ h2 {
     width: 27%;
     height:auto;
     display:block;
-    margin: auto;
+    margin: 0 auto;
   }
 
   /* Projects section */
