@@ -286,6 +286,7 @@ h2 {
   #logo {
     border-radius: 50%;
     width: 20%;
+    display: block;
     height: auto;
 
   }
@@ -320,28 +321,6 @@ h2 {
     header {
       height: 6rem;
     }
-    
-    main {
-      margin: 4vw;
-    }
-
-    h1 {
-      font-size: 4rem;
-    }
-
-    h2 {
-      font-size: 3.5rem;
-      margin-top: 7rem;
-      margin-bottom: 4rem;
-    }
-
-    figure {
-      width: 70%;
-    }
-
-    .welcome-section > p {
-      font-size: 2rem;
-    }
 
     .nav {
       height: 5vw;
@@ -353,14 +332,57 @@ h2 {
     padding: 1vw;
     border-radius: 4px;
   }
+    
+    main {
+      margin: 4vw;
+    }
+
+    h1 {
+      font-size: 4rem;
+    }
+
+    h2 {
+      font-size: 5rem;
+      margin-top: 7rem;
+      margin-bottom: 4rem;
+    }
+
+    figure {
+      width: 50%;
+    }
+
+    h3 {
+      font-size: 4rem;
+      margin-bottom: 5rem;
+      padding-bottom: 2rem;
+    }
 
   #about-me {
-    padding-top: 5rem;
-    padding-bottom: 10vh;
+    font-size: 2rem;
+  }
+
+  .projects-section-header {
+    font-size: 4rem;
+    padding-top: 9rem;
   }
 
   .contact-section-header > h2 {
-    font-size: 3rem;
+    font-size: 4rem;
+    height: 3rem;
+    padding-top: 2rem;
+  }
+
+  .contact-links {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  footer {
+    font-size:larger;
+  }
+
+  #logo {
+    width: 30%;
   }
 }
 
@@ -406,22 +428,29 @@ h2 {
 
     .nav-list a {
       padding: 0.5rem;
-      font-size: 2rem;
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      font-size: 4rem;
     }
 
     h3 {
       margin-bottom: 1rem;
-      padding-bottom: 1rem;
+      font-size: 3rem;
+      padding-bottom: 10rem;
     }
 
-    .welcome-section > p {
+    #about-me {
+      padding-top: 3rem;
       font-size: 2rem;
-      font-weight: 200;
-      font-family: 'Fira Sans', sans-serif;
-      text-align: center;
-      color: antiquewhite;
       padding-bottom: 6.5rem;
     }
+
+      
+  .project-title {
+    padding-top: 3rem;
+  }
 
     .projects-section-header {
       font-size: 4rem;
@@ -431,11 +460,13 @@ h2 {
       padding-left: 0;
       padding-right: 0;
       width: auto;
+      height: 350px;
       background-size: auto;
       position: relative;
     }
 
     .contact-section-header > h2 {
+      padding-top: 8rem;
       font-size: 4rem;
       height:fit-content;
       margin: 0;
@@ -443,10 +474,14 @@ h2 {
 
     .contact-links {
       margin-top: 1rem;
+      margin-bottom: 2rem;
     }
 
     footer {
-      flex-direction: column;
-      text-align: center;
+      font-size:larger;
+    }
+
+    #logo {
+      width: 80%;
     }
   }
