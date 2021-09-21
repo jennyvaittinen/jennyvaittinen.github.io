@@ -458,6 +458,10 @@ h2 {
     padding-top: 3rem;
   }
 
+  .project-section-header {
+    padding-bottom: 0;
+  }
+
     .projects-section-header {
       font-size: 4rem;
     }
