@@ -114,6 +114,7 @@ li {
     text-align: center;
     color: antiquewhite;
     padding-bottom: 6.5vw;
+    margin: 0 20%;
 
   }
 
@@ -160,6 +161,7 @@ h2 {
 .projects-section {
     text-align: center;
     width: auto;
+    margin: auto;
   }
   
   .projects-section-header {
