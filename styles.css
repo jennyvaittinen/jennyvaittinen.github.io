@@ -97,9 +97,9 @@ li {
 
 #myCanvas {
   display: block;
-  margin: -5rem auto;
+  margin: 0 auto;
   width:100%;
-  height: 100vh;
+  height: 90vh;
  }
 
 .welcome-section {
