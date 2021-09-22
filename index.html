@@ -5,10 +5,12 @@
   <link rel="shortcut icon" href="/Media/favicon.png" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <meta property="og:description" content="You can access all my projects and contact me via my porfolio page">
     <link rel="stylesheet" href="styles.css" type="text/css" media="screen">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" 
     crossorigin="anonymous">
+    <script type="text/javascript" src="alphabet.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <meta name="image" property="og:image" content="https://github.com/jennyvaittinen/jennyvaittinen.github.io/blob/main/Media/favicon.png?raw=true">
@@ -18,19 +20,22 @@
 
 <body>
     <header>
-      <h1><a href="#welcome-section" title="Palaa takaisin ylös">Portfolio</a></h1>
+      <h1><a href="#myI'mtle="Palaa takaisin ylös">Portfolio</a></h1>
         <nav id="navbar" class="nav">
             <ul class="nav-list">
-                <li><a href="#profession">ABOUT</a></li>
+                <li><a href="#welcome-section">ABOUT</a></li>
                 <li><a href="#projects">WORK</a></li>
                 <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
     </header>
 <main>
+
+  <canvas id="myCanvas"></canvas>
 <!--ABOUT SECTION-->
     <section id="welcome-section" class="welcome-section">
-        <h2>Hi, I'm Jenny</h2>
+
+      <h2>Hi, I'm Jenny</h2>
         <figure><img id="profilePic" src="Media/CV kuva.jpg" alt="Jenny Vaittinen"> </figure>
         <h3 id="profession">A front-end developer student</h3>
         <p id="about-me"> I'm a woman from Helsinki, studying to be a front-end developer.<br>
@@ -142,6 +147,8 @@
   </footer>
   
   <!-- END FOOTER SECTION -->
+  <script type="text/javascript" src="bubbles.js"></script>
+  <script type="text/javascript" src="main.js"></script>
 </body>
 
 </html>
