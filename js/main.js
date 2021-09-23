@@ -5,7 +5,7 @@ var orange = [40, 100, 60];
 var green = [75, 100, 40];
 var blue = [196, 77, 55];
 var purple = [0, 0, 100];
-var letterColors = [purple]; //red, orange, green, blue, 
+var letterColors = [purple]; //red, orange, green, blue, atm valkonen
 
 drawName(wordToDisplay, letterColors);
 

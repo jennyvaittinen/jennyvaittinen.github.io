@@ -330,6 +330,10 @@ h2 {
     html {
       font-size: 60%;
     }
+
+    #myCanvas {
+      display: none;
+    }
   }
   
   /* 980px / 16px = 61.25em */
@@ -410,6 +414,7 @@ h2 {
 }
 
   @media (max-width: 30.625em) {
+
     .projects-section {
       padding: 6rem 1rem;
     }
