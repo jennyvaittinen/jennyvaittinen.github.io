@@ -99,7 +99,7 @@ li {
 
 #box {
   width: 110%;
-  height: auto;
+  text-align: center;
   overflow: hidden;
   transform: translate3d(0,0,0);
 }
