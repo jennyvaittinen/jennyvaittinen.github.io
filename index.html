@@ -12,12 +12,15 @@
   <link rel="shortcut icon" href="/Media/favicon.png" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script> -->
     <meta property="og:description" content="You can access all my projects and contact me via my porfolio page">
-    <link rel="stylesheet" href="styles.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" 
     crossorigin="anonymous">
-    <script type="text/javascript" src="alphabet.js"></script>
+    <link rel="stylesheet" href="/css/cookies.css" type="text/css" media="all">
+    <script type="text/javascript" src="/js/alphabet.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <meta name="image" property="og:image" content="https://github.com/jennyvaittinen/jennyvaittinen.github.io/blob/main/Media/favicon.png?raw=true">
@@ -147,6 +150,35 @@
   </section>
   
   <!-- END CONTACT SECTION -->
+  <!--COOKIES-->
+  <div class="grt-cookie" id="cookie1">
+		<div class="grt-cookies-msg">
+			<p>
+				Käytämme evästeitä varmistaaksemme parhaan mahdollisen käyttökokemuksen sivuilla. Evästeiden avulla teemme myös markkinointianalytiikkaa. Voit halutessasi tutustua <a href="https://www.tuoksukauppa.com/privacy">yksityisyyden suojan ehtoihimme</a>, 
+				ja <a href="https://www.tuoksukauppa.com/page/10/sopimusehdot">Käyttöehtoihimme</a>. 
+			</p>
+		</div>
+		
+		<span class="grt-cookie-button grt-cookie-button-bgr">Hyväksy</span><br />
+		<span class="grt-cookie-button-more grt-cookie-button-bgr" id="more-cookie">Lisätietoa...<span>
+									   
+									   
+	</div>
+	<div class="grt-cookie" id="cookie2" style="display: none">
+	 <div class="grt-cookies-msg">
+			<p>
+				Keräämme Google Analyticsin avulla tietoja, joita hyödynnämme verkkosivujen käytön analytiikkaan ja suostumuksellasi myös markkinoinnin kohdentamiseen.
+			  Voit jatkaa sivun käyttöä ilman markkinointievästeitä klikkaamalla "vain pakolliset".
+				
+			</p>
+	 </div>
+		
+		<span class="grt-cookie-button grt-cookie-button-bgr">Hyväksy</span><br />
+		<span class="grt-cookie-button-deny grt-cookie-button-bgr" id="deny">Vain pakolliset</span>
+									   
+							   
+	</div>
+  <!--END COOKIES-->
 </main>
   <!-- START FOOTER SECTION -->
   
@@ -158,8 +190,36 @@
   </footer>
   
   <!-- END FOOTER SECTION -->
-  <script type="text/javascript" src="bubbles.js"></script>
-  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="/js/cookies.js"></script>
+  <script type="text/javascript" src="/js/bubbles.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
+  <script>
+		// Start the plugin with defalt settings
+		// $(".grt-cookies").grtCookie();
+
+		// Custom Settings
+		$(".grt-cookie").grtCookie({
+			// Main text and background color
+			textcolor: "#000",
+			background: "#FAEBD7",
+			// Button colors
+			buttonbackground: "#5f0476",
+			buttontextcolor: "#ffffff",
+			// Duration in days
+			duration: 365,
+		});
+									  
+	    const btn = document.getElementById("more-cookie");
+	    const targetDiv = document.getElementById("cookie2");									 
+		const hideDiv = document.getElementById("cookie1");														 
+	   	btn.onclick = function  () {
+			targetDiv.style.display = "flex";
+			hideDiv.style.display = "none";
+		}
+				 
+						  
+	
+	</script>
 </body>
 
 </html>
