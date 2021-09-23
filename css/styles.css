@@ -98,7 +98,7 @@ li {
 /*nav end*/
 
 #box {
-  width: 110%;
+  width: 101%;
   display:block;
   overflow: hidden;
   transform: translate3d(0,0,0);
@@ -106,6 +106,7 @@ li {
 
 canvas {
   display: block;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   background-image: inherit;
