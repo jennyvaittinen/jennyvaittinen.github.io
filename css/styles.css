@@ -11,7 +11,7 @@
 
 html, body {
     height: auto;
-    width: 100%;
+    width: auto;
     margin-top: 3.5vw;
     background-image: linear-gradient(hsl(288, 93%, 24%), hsl(263, 78%, 36%), hsl(239, 67%, 38%));
     background-position: center;
@@ -99,8 +99,8 @@ canvas {
   display: block;
   margin: 10rem auto;
   padding: 0;
-  width: 105%;
-  height: 85vh;
+  width: 100%;
+  height: 100vh;
  }
 
 .welcome-section {
