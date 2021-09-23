@@ -97,9 +97,9 @@ li {
 
 canvas {
   display: block;
-  margin: 5rem auto;
+  margin: 10rem auto;
   padding: 0;
-  width: 100%;
+  width: 105%;
   height: 85vh;
  }
 
