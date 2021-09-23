@@ -99,7 +99,8 @@ canvas {
   display: block;
   margin: 5rem auto;
   padding: 0;
-  height: 100vh;
+  width: inherit;
+  height: 90vh;
  }
 
 .welcome-section {
