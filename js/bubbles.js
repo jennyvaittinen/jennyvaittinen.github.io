@@ -1,3 +1,5 @@
+//codecademy code
+
 function Vector(x, y, z) {
     this.x = x;
     this.y = y;
@@ -112,7 +114,9 @@ function Point(x, y, z, size, color) {
         this.radius = this.size * this.curPos.z;
         if (this.radius < 1) this.radius = 1;
     };
- 
+
+
+
     this.draw = function (bubbleShape, dx, dy) {
         ctx.fillStyle = this.color;
         if (bubbleShape == "square") {

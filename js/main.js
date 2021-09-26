@@ -1,3 +1,5 @@
+//codecademy code
+
 var wordToDisplay = "Welcome To My Portfolio";
 
 var red = [0, 100, 63];
