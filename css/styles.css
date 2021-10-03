@@ -229,35 +229,58 @@ h2 {
     font-family: 'Fira Sans', sans-serif;
   }
   
-  .btn {
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
     display: inline-block;
-    padding: 1rem 2rem;
-    border-radius: 4px;
-  }
-  
-  .btn-show-all {
-    font-size: 2rem;
-    background: hsl(248, 77%, 35%);
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    transition: background 0.3s ease-out;
-    margin: 1vw 3vw 8vw 3vw;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
     font-family: 'Fira Sans', sans-serif;
+    font-size: 1rem;
+  }
 
+  .btn-15 {
+    background: hsl(248, 71%, 37%);
+    border: none;
+    z-index: 1;
   }
+  .btn-15:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #663dff;
+    border-radius: 5px;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  }
+  .btn-15:hover {
+    color: #fff;
+  }
+  .btn-15:hover:after {
+    left: 0;
+    width: 100%;
+  }
+  .btn-15:active {
+    top: 2px;
+  }
+
   
-  .btn-show-all:hover {
-    background: royalblue;
-  }
-  
-  .btn-show-all:hover > i {
-    transform: translateX(2px);
-  }
-  
-  .btn-show-all > i {
-    margin-left: 10px;
-    transform: translateX(0);
-    transition: transform 0.3s ease-out;
-  }
 /*end project section*/
 /* Contact section */
 
@@ -274,6 +297,12 @@ h2 {
   
   .contact-section-header > h2 {
     font-size: 3vw;
+  }
+
+    .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 4px;
   }
   
   .contact-links {
