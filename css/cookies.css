@@ -62,6 +62,10 @@
 	white-space: nowrap;
 }
 
+.grt-cookies-msg {
+	text-align: start;
+}
+
 .spans {
 	display: flex;
 	justify-content: flex-end;
