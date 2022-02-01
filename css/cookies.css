@@ -63,7 +63,9 @@
 }
 
 .grt-cookies-msg {
-	text-align: start;
+	display: flex;
+    justify-content: start;
+    width: 100%;
 }
 
 .spans {
